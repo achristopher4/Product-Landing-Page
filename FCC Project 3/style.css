@@ -1,0 +1,64 @@
+
+#wrap{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Tahoma', 'Verdana', sans-serif;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#header{
+  position: fixed;
+  background: black;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+#header-img{
+  width: auto;
+  height: 50;
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#nav-bar{
+  display: inline;
+  float: right;
+  margin: 25 25 25 auto;
+  overflow: hidden;
+}
+#nav-link{
+  color: white;
+  text-decoration: none;
+}
+
+#newsletter{
+  text-align: center;
+  background-color: lightgrey;
+  
+}
+
+#price{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  #frame{
+    position: relative;
+    max-width: 200px;
+    padding: 15px 50px 50px 50px;
+    margin: 0 25px 15px 30px;
+    border: 1px solid black;
+    #container-A{
+      font-size: 10px;
+      text-align: center;
+
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  #nav-bar{
+    display: block;
+  }
+}
