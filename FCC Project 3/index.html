@@ -4,24 +4,26 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
 
-  <div id="wrap">
-    <header id="header">
-      <img src="./images.png" alt="Company Logo" id="header-img">
+  <body id="wrap">
+    <section class="nav-top">
+      <header id="head">
+        <img src="./images.png" alt="Company Logo" id="header-img">
 
-      <nav id="nav-bar">
-        <a href="#form" class="nav-link">Features</a>
-        <a href="#vid" class="nav-link">Video</a>
-        <a href="#price" class="nav-link">Pricing</a>
-      </nav>
-    </header>
+        <nav id="nav-bar">
+          <a href="#form" class="nav-link">Features</a>
+          <a href="#vid" class="nav-link">Video</a>
+          <a href="#price" class="nav-link">Pricing</a>
+        </nav>
+      </header>
+    </section>
 
-    <div id="main">
+    <id id="main">
       <div id="newsletter">
-        <h1>Surf Lessons</h1>
+        <h1 id="news-title">Surf Lessons</h1>
         <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
           <label for="surf"></label>
           <input type="email" name="email" placeholder="Enter Your Email Address" id="email" required><br>
-          <input type="submit" value="submit" id="submit">
+          <input type="submit" value="SUBMIT" id="submit">
         </form>
       </div>
 
@@ -46,14 +48,14 @@
       </div>
 
       <div id="vid">
-        <iframe id="video" width="100%" height="500" allow="autoplay; encrypted-media" allowfullscreen
+        <iframe id="video" width="50%" height="400" allow="autoplay; encrypted-media" allowfullscreen
         src="https://www.youtube.com/watch?v=bTqVqk7FSmY&loop=1"></iframe>
       </div>
 
       <div id="price">
         <div id="frame">
-          <div id="container-A">
-            <h2 id="title">Beginner</h2>
+          <div id="container">
+            <h2 id="title-a">Beginner</h2>
             <h3 id="pricing">$500</h3>
             <ul id="plan">
               <li>Surf instuctor</li>
@@ -64,8 +66,8 @@
         </div>
 
         <div id="frame">
-          <div id="container-B">
-            <h2 id="title">Intermediate</h2>
+          <div id="container">
+            <h2 id="title-a">Intermediate</h2>
             <h3 id="pricing">$750</h3>
             <ul id="plan">
               <li>Surf Guide</li>
@@ -76,8 +78,8 @@
         </div>
 
         <div id="frame">
-          <div id="container-C">
-            <h2 id="title">Advanced</h2>
+          <div id="container">
+            <h2 id="title-a">Advanced</h2>
             <h3 id="pricing">$1000</h3>
             <ul id="plan">
               <li>Secert Spots</li>
@@ -89,8 +91,8 @@
       </div>
     </div>
 
-    <footer>
+    <footer id="foot">
       <p>&copy 2020 Alex C</p>
     </footer>
-  </div>
+  </body>
 </html>
